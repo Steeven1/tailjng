@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+@theme {
+  --color-background: #eef1f7;
+  --color-foreground: #181a1b;
+  --color-card: #e3e5e8;
+  --color-card-foreground: #1c2331;
+  --color-popover: #f1f2f3;
+  --color-popover-foreground: #0c1018;
+  --color-primary: #445981;
+  --color-primary-foreground: #FFFFFF;
+  --color-secondary: #b7bdc8;
+  --color-secondary-foreground: #000000;
+  --color-muted: #d7d8da;
+  --color-muted-foreground: #556177;
+  --color-accent: #d0d1d3;
+  --color-accent-foreground: #1c2331;
+  --color-destructive: #BF3F3F;
+  --color-destructive-foreground: #f1f2f3;
+  --color-border: #8894aa;
+  --color-input: #8894aa;
+  --color-ring: #445981;
+
+  --color-dark-background: #14171b;
+  --color-dark-foreground: #e4e5e7;
+  --color-dark-card: #0f131a;
+  --color-dark-card-foreground: #e4e5e7;
+  --color-dark-popover: #06070a;
+  --color-dark-popover-foreground: #e4e5e7;
+  --color-dark-primary: #364258;
+  --color-dark-primary-foreground: #FFFFFF;
+  --color-dark-secondary: #29303d;
+  --color-dark-secondary-foreground: #FFFFFF;
+  --color-dark-muted: #393e46;
+  --color-dark-muted-foreground: #9297a0;
+  --color-dark-accent: #393e46;
+  --color-dark-accent-foreground: #e4e5e7;
+  --color-dark-destructive: #BF3F3F;
+  --color-dark-destructive-foreground: #e4e5e7;
+  --color-dark-border: #5f6d86;
+  --color-dark-input: #5f6d86;
+  --color-dark-ring: #364258;
+  --color-radius: 0.5rem;
+  --color-dark-radius: 0.5rem;
+}
