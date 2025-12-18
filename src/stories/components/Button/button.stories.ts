@@ -2,13 +2,14 @@ import type { Meta, StoryObj } from '@storybook/angular';
 import { fn } from 'storybook/test';
 
 import { JButtonComponent } from '../../../app/tailjng/button/button.component';
+import { themes } from 'storybook/internal/theming';
 //import { ButtonComponent } from './button.component';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 const meta: Meta<JButtonComponent> = {
   title: 'Components/Button',
   component: JButtonComponent,
-
+  
   tags: ['autodocs'],
   argTypes: {
     
@@ -19,10 +20,8 @@ const meta: Meta<JButtonComponent> = {
   parameters:{
     docs:{
       codePanel:true,
-      source: {type: 'auto', language: 'html'},
-      layout: 'centered',
-    }
-    
+    },
+    theme: themes.dark,
   }
 };
 
